@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="fltscan_Principal" CodeFile="fltscan_Principal.master.cs" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+<head id="Head1" runat="server">
+    <title>.: ESCANEO UNIDADES WEB :. </title>
+    <link href =  "Estilos/Style.css" rel="stylesheet" type="text/css" />    
+    <link rel="stylesheet" media="all" type="text/css" href="Estilos/menu_style.css" />
+    <!--[if IE]>
+    <link rel="stylesheet" media="all" type="text/css" href="Estilos/ie.css" />
+    <![endif]-->
+    
+    <style>
+        .body{background: url("../Imagenes/image2993.png") fixed;
+              background-repeat:no-repeat;  
+              }
+        #menu {background-color:#4F86BC; border:solid 1px #A5C8E8;}       
+    </style>
+</head>
+<body class="body">                    
+    <table width="100%" style="";  border="0" cellspacing="0" cellpadding="0">
+    <tr><td><img src="../Imagenes/image2993.png"</td>         
+    <td>                 
+            <!--// The head of the menus //-->
+	        <table cellpadding="0" cellspacing="0" class="menu">
+		        <tr>
+			        <td ><div></div></td>
+			        <td >
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">                        
+                        
+                        </asp:ContentPlaceHolder>
+			        </td>
+			        <td ><div><%=strMenu%></div></td>
+		        </tr>
+	        </table>	        	        
+	 </td>
+
+        <td align="right"> <font class = "ETIQUETA"><%=strNombreUsuario%></font></td>
+
+	     <td align="right"> <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" 
+            Font-Names="Tahoma" Font-Size="Small" ForeColor="Maroon" 
+            NavigateUrl= "fltscan_Login.aspx">Salir</asp:HyperLink></td>
+	 </tr>              
+  <tr valign="bottom">
+            <td colspan=5 height=1px; bgcolor="blue"><img src="Imagenes/Spacer.gif" height="1px;" width="1px;" /></td>
+  </tr>  
+  <tr>
+  <td colspan="5"> 
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server" >
+                                                <script language="javascript">
+                                                    window.location = "fltscan_r_escaneo.aspx";
+                                                </script>
+           </asp:ContentPlaceHolder>
+   </td>
+  </tr>
+</table>                         
+</body>
+</html>
+
+        
+        
+
+    

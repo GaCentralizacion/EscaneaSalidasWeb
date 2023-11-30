@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E2A6E487-1425-41C0-BBFE-D786BF14BFEB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PortalClientes</RootNamespace>
+    <AssemblyName>PortalClientes</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ajax, Version=5.7.22.2, Culture=neutral" />
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp, Version=5.5.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp.xmlworker, Version=5.5.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL" />
+    <Reference Include="MessageDataLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MessagingToolkit.QRCode, Version=1.0.3541.23206, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="obout_EasyMenu_Pro, Version=3.10.9.0, Culture=neutral, PublicKeyToken=b76d93635057b0c1, processorArchitecture=MSIL" />
+    <Reference Include="obout_Flyout2_NET, Version=2.0.5.0, Culture=neutral, PublicKeyToken=d6418bad3a294aff, processorArchitecture=MSIL" />
+    <Reference Include="OpenPop, Version=2.0.5.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="PDFLibNet, Version=1.0.6.6, Culture=neutral, PublicKeyToken=26d87f7d66fb2aee, processorArchitecture=x86" />
+    <Reference Include="PdfSharp, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="WSProxyF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bp_CambioPassword.aspx" />
+    <Content Include="bp_Downloader.aspx" />
+    <Content Include="bp_Inicio.aspx" />
+    <Content Include="bp_Login.aspx" />
+    <Content Include="bp_ReenviarDocto.aspx" />
+    <Content Include="bp_SeleccionaAgencia.aspx" />
+    <Content Include="fltscan_Inicio.aspx" />
+    <Content Include="fltscan_Login.aspx" />
+    <Content Include="fltscan_r_escaneo.aspx" />
+    <Content Include="Inicio.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="pcConsultaFacturasVIP.aspx" />
+    <Content Include="pcDescargadorArchivo.aspx" />
+    <Content Include="pcDownLoadPackageCFDs.aspx" />
+    <Content Include="pcGeneraRFC.aspx" />
+    <Content Include="pc_ConsultaFactura.aspx" />
+    <Content Include="Service References\RefMF\PortalClientes.RefMF.Documento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\RefMF\Service1.disco" />
+    <Content Include="Service References\RefMF\configuration91.svcinfo" />
+    <Content Include="Service References\RefMF\configuration.svcinfo" />
+    <Content Include="Service References\RefMF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Service References\ServiceReference1\Service1.disco" />
+    <Content Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <Content Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <Content Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="sicop_ConsultaSalidas.aspx" />
+    <Content Include="sicop_Inicio.aspx" />
+    <Content Include="sicop_Login.aspx" />
+    <Content Include="sicop_SeleccionaAgencia.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Service References\ServiceReference1\Service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bp_CambioPassword.aspx.cs">
+      <DependentUpon>bp_CambioPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bp_Downloader.aspx.cs">
+      <DependentUpon>bp_Downloader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bp_Downloader.aspx.designer.cs">
+      <DependentUpon>bp_Downloader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bp_Inicio.aspx.cs">
+      <DependentUpon>bp_Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bp_Login.aspx.cs">
+      <DependentUpon>bp_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bp_Principal.master.cs">
+      <DependentUpon>bp_Principal.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bp_ReenviarDocto.aspx.cs">
+      <DependentUpon>bp_ReenviarDocto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bp_SeleccionaAgencia.aspx.cs">
+      <DependentUpon>bp_SeleccionaAgencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bp_SeleccionaAgencia.aspx.designer.cs">
+      <DependentUpon>bp_SeleccionaAgencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chk2_DefinePlantilla.aspx.cs">
+      <DependentUpon>chk2_DefinePlantilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chk2_DefinePlantilla.aspx.designer.cs">
+      <DependentUpon>chk2_DefinePlantilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chk2_Login.aspx.cs">
+      <DependentUpon>chk2_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chk2_r_t_asistencia.aspx.cs">
+      <DependentUpon>chk2_r_t_asistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fltscan_Inicio.aspx.cs">
+      <DependentUpon>fltscan_Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fltscan_Login.aspx.cs">
+      <DependentUpon>fltscan_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fltscan_Principal.master.cs">
+      <DependentUpon>fltscan_Principal.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fltscan_r_escaneo.aspx.cs">
+      <DependentUpon>fltscan_r_escaneo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetImage.ashx.cs">
+      <DependentUpon>GetImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\BarcodeGenerator.cs" />
+    <Compile Include="Old_App_Code\chk2_Usuarios_Dao.cs" />
+    <Compile Include="Old_App_Code\clsCodigoBarrasTicket.cs" />
+    <Compile Include="Old_App_Code\clsEMAIL.cs" />
+    <Compile Include="Old_App_Code\clsEmailGeneral.cs" />
+    <Compile Include="Old_App_Code\clsManejoImagenes.cs" />
+    <Compile Include="Old_App_Code\CmdHelper.cs" />
+    <Compile Include="Old_App_Code\Code128Content.cs" />
+    <Compile Include="Old_App_Code\Code128Rendering.cs" />
+    <Compile Include="Old_App_Code\ConexionBD.cs" />
+    <Compile Include="Old_App_Code\ConexionBDchk2.cs" />
+    <Compile Include="Old_App_Code\ConexionBDpyp.cs" />
+    <Compile Include="Old_App_Code\Conexion_BD.cs" />
+    <Compile Include="Old_App_Code\Ctrl_Usuarios.cs" />
+    <Compile Include="Old_App_Code\DateAndTime.cs" />
+    <Compile Include="Old_App_Code\DynamicallyTemplatedGridViewHandler.cs" />
+    <Compile Include="Old_App_Code\ean13.cs" />
+    <Compile Include="Old_App_Code\Ean13Settings.cs" />
+    <Compile Include="Old_App_Code\Error_Log.cs" />
+    <Compile Include="Old_App_Code\ExternalPDFLib.cs" />
+    <Compile Include="Old_App_Code\ImagenTOpdf.cs" />
+    <Compile Include="Old_App_Code\ImageUtil.cs" />
+    <Compile Include="Old_App_Code\Password.cs" />
+    <Compile Include="Old_App_Code\program.cs" />
+    <Compile Include="Old_App_Code\program39.cs" />
+    <Compile Include="Old_App_Code\pventaConexionBD.cs" />
+    <Compile Include="Old_App_Code\sf.cs" />
+    <Compile Include="Old_App_Code\strErrorLog.cs" />
+    <Compile Include="Old_App_Code\Ticket.cs" />
+    <Compile Include="Old_App_Code\Usuarios.cs" />
+    <Compile Include="Old_App_Code\Usuarios_Dao.cs" />
+    <Compile Include="Old_App_Code\Utilerias.cs" />
+    <Compile Include="Old_App_Code\WebSiteImageGenerator.cs" />
+    <Compile Include="pcConsultaFacturasVIP.aspx.cs">
+      <DependentUpon>pcConsultaFacturasVIP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pcDescargadorArchivo.aspx.cs">
+      <DependentUpon>pcDescargadorArchivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pcDownLoadPackageCFDs.aspx.cs">
+      <DependentUpon>pcDownLoadPackageCFDs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pcGeneraRFC.aspx.cs">
+      <DependentUpon>pcGeneraRFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pcGeneraRFC.aspx.designer.cs">
+      <DependentUpon>pcGeneraRFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pc_ConsultaFactura.aspx.cs">
+      <DependentUpon>pc_ConsultaFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pc_ConsultaFactura.aspx.designer.cs">
+      <DependentUpon>pc_ConsultaFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\RefMF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="sicop_ConsultaSalidas.aspx.cs">
+      <DependentUpon>sicop_ConsultaSalidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sicop_Inicio.aspx.cs">
+      <DependentUpon>sicop_Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sicop_SeleccionaAgencia.aspx.cs">
+      <DependentUpon>sicop_SeleccionaAgencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sicop_SeleccionaAgencia.aspx.designer.cs">
+      <DependentUpon>sicop_SeleccionaAgencia.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="agile_carousel.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GetImage.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chk2_DefinePlantilla.aspx" />
+    <Content Include="chk2_Login.aspx" />
+    <Content Include="chk2_r_t_asistencia.aspx" />
+    <Content Include="DataSetRepParticipacion.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bp_Principal.master" />
+    <None Include="ClassDiagram1.cd" />
+    <Content Include="fltscan_Principal.master" />
+    <Content Include="Service References\RefMF\Service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_GlobalResources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\RefMF\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63746</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

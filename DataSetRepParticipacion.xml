@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Resultados">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:int" minOccurs="0" />
+                <xs:element name="id_usuario" type="xs:int" minOccurs="0" />
+                <xs:element name="agente" type="xs:string" minOccurs="0" />
+                <xs:element name="totaltickets" type="xs:int" minOccurs="0" />
+                <xs:element name="subtotal" type="xs:int" minOccurs="0" />
+                <xs:element name="cerrados" type="xs:int" minOccurs="0" />
+                <xs:element name="enproceso" type="xs:int" minOccurs="0" />
+                <xs:element name="porcparticipacion" type="xs:decimal" minOccurs="0" />
+                <xs:element name="porcenproceso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="porccerrado" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tiempopromediosolucion" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Resultados>
+    <id>1</id>
+    <id_usuario>1</id_usuario>
+    <agente>Luis Bonnet Ayala</agente>
+    <totaltickets>43</totaltickets>
+    <subtotal>42</subtotal>
+    <cerrados>6</cerrados>
+    <enproceso>36</enproceso>
+    <porcparticipacion>97.00</porcparticipacion>
+    <porcenproceso>85.00</porcenproceso>
+    <porccerrado>14.00</porccerrado>
+    <tiempopromediosolucion>9 d 08 h 00 m 00 s</tiempopromediosolucion>
+  </Resultados>
+  <Resultados>
+    <id>2</id>
+    <id_usuario>2</id_usuario>
+    <agente>Ignacio Jimenez</agente>
+    <totaltickets>43</totaltickets>
+    <subtotal>42</subtotal>
+    <cerrados>6</cerrados>
+    <enproceso>36</enproceso>
+    <porcparticipacion>97.00</porcparticipacion>
+    <porcenproceso>85.00</porcenproceso>
+    <porccerrado>14.00</porccerrado>
+    <tiempopromediosolucion>9 d 08 h 00 m 00 s</tiempopromediosolucion>
+  </Resultados>
+  <Resultados>
+    <id>3</id>
+    <id_usuario>3</id_usuario>
+    <agente>Berenice Albarran</agente>
+    <totaltickets>43</totaltickets>
+    <subtotal>39</subtotal>
+    <cerrados>5</cerrados>
+    <enproceso>34</enproceso>
+    <porcparticipacion>90.00</porcparticipacion>
+    <porcenproceso>87.00</porcenproceso>
+    <porccerrado>12.00</porccerrado>
+    <tiempopromediosolucion>11 d 04 h 48 m 00 s</tiempopromediosolucion>
+  </Resultados>
+  <Resultados>
+    <id>4</id>
+    <id_usuario>10</id_usuario>
+    <agente>Luis Bonnet prueba de envio de correo</agente>
+    <totaltickets>43</totaltickets>
+    <subtotal>1</subtotal>
+    <cerrados>0</cerrados>
+    <enproceso>1</enproceso>
+    <porcparticipacion>2.00</porcparticipacion>
+    <porcenproceso>100.00</porcenproceso>
+    <porccerrado>0.00</porccerrado>
+    <tiempopromediosolucion>Indefinido, sin tickets cerrados</tiempopromediosolucion>
+  </Resultados>
+</NewDataSet>

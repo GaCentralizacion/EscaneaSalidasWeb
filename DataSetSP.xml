@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Resultados">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:int" minOccurs="0" />
+                <xs:element name="id_ticket" type="xs:int" minOccurs="0" />
+                <xs:element name="asunto" type="xs:string" minOccurs="0" />
+                <xs:element name="prioridad" type="xs:string" minOccurs="0" />
+                <xs:element name="f_abierto" type="xs:string" minOccurs="0" />
+                <xs:element name="f_cerrado" type="xs:string" minOccurs="0" />
+                <xs:element name="tiempo_transcurrido" type="xs:string" minOccurs="0" />
+                <xs:element name="creado_por" type="xs:string" minOccurs="0" />
+                <xs:element name="estado" type="xs:string" minOccurs="0" />
+                <xs:element name="asignados" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Resultados>
+    <id>1</id>
+    <id_ticket>2</id_ticket>
+    <asunto>La unidad se encuentra atascada</asunto>
+    <prioridad>UNIDAD PARADA</prioridad>
+    <f_abierto>2014-11-04 00:00:00.000  </f_abierto>
+    <f_cerrado xml:space="preserve">                         </f_cerrado>
+    <tiempo_transcurrido>55 d 17 h 56 m 07 s</tiempo_transcurrido>
+    <creado_por>Luis Bonnet Ayala</creado_por>
+    <estado>abierto</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>2</id>
+    <id_ticket>3</id_ticket>
+    <asunto>accidente contra vaca</asunto>
+    <prioridad>UNIDAD PARADA</prioridad>
+    <f_abierto>2014-11-04 00:00:00.000  </f_abierto>
+    <f_cerrado xml:space="preserve">                         </f_cerrado>
+    <tiempo_transcurrido>55 d 17 h 56 m 07 s</tiempo_transcurrido>
+    <creado_por>Luis Bonnet Ayala</creado_por>
+    <estado>abierto</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>3</id>
+    <id_ticket>4</id_ticket>
+    <asunto>policia detiene unidad por falta de verificacion</asunto>
+    <prioridad>UNIDAD POR PARARSE</prioridad>
+    <f_abierto>2014-11-04 00:00:00.000  </f_abierto>
+    <f_cerrado xml:space="preserve">                         </f_cerrado>
+    <tiempo_transcurrido>55 d 17 h 56 m 07 s</tiempo_transcurrido>
+    <creado_por>Ignacio Jimenez</creado_por>
+    <estado>abierto</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>4</id>
+    <id_ticket>5</id_ticket>
+    <asunto>Unidad sin combustible</asunto>
+    <prioridad>UNIDAD POR PARARSE</prioridad>
+    <f_abierto>2014-11-03 00:00:00.000  </f_abierto>
+    <f_cerrado xml:space="preserve">                         </f_cerrado>
+    <tiempo_transcurrido>56 d 17 h 56 m 07 s</tiempo_transcurrido>
+    <creado_por>Ignacio Jimenez</creado_por>
+    <estado>abierto</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>5</id>
+    <id_ticket>6</id_ticket>
+    <asunto>Prueba de insercion de ticket con campos dinámicos</asunto>
+    <prioridad>UNIDAD TRABAJANDO CON PROBLEMAS</prioridad>
+    <f_abierto>2014-11-22 16:31:14.440  </f_abierto>
+    <f_cerrado>2014-11-22 18:12:24.507  </f_cerrado>
+    <tiempo_transcurrido>00 d 01 h 41 m 10 s</tiempo_transcurrido>
+    <creado_por>Ignacio Jimenez</creado_por>
+    <estado>cerrado</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>6</id>
+    <id_ticket>7</id_ticket>
+    <asunto>prueba generacion de correo aviso de pie de pagina</asunto>
+    <prioridad>UNIDAD POR PARARSE</prioridad>
+    <f_abierto>2014-11-22 18:09:34.150  </f_abierto>
+    <f_cerrado>2014-11-22 18:23:52.823  </f_cerrado>
+    <tiempo_transcurrido>00 d 00 h 14 m 18 s</tiempo_transcurrido>
+    <creado_por>Ignacio Jimenez</creado_por>
+    <estado>cerrado</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>7</id>
+    <id_ticket>8</id_ticket>
+    <asunto>captura de ticket en area distinta ala default</asunto>
+    <prioridad>UNIDAD TRABAJANDO CON PROBLEMAS</prioridad>
+    <f_abierto>2014-11-22 18:27:19.190  </f_abierto>
+    <f_cerrado>2014-11-22 18:42:48.043  </f_cerrado>
+    <tiempo_transcurrido>00 d 00 h 15 m 29 s</tiempo_transcurrido>
+    <creado_por>Ignacio Jimenez</creado_por>
+    <estado>cerrado</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>8</id>
+    <id_ticket>9</id_ticket>
+    <asunto>Prueba no envia el pie de pagina al cambiar de Area</asunto>
+    <prioridad>UNIDAD PARADA</prioridad>
+    <f_abierto>2014-11-22 18:46:20.510  </f_abierto>
+    <f_cerrado>2014-11-22 18:47:21.107  </f_cerrado>
+    <tiempo_transcurrido>00 d 00 h 01 m 01 s</tiempo_transcurrido>
+    <creado_por>Ignacio Jimenez</creado_por>
+    <estado>cerrado</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>9</id>
+    <id_ticket>10</id_ticket>
+    <asunto>Cambio de area con generacion de campos dinamicos desde parametrizacion de base de datos</asunto>
+    <prioridad>UNIDAD POR PARARSE</prioridad>
+    <f_abierto>2014-11-23 14:02:14.850  </f_abierto>
+    <f_cerrado>2014-11-23 15:25:24.067  </f_cerrado>
+    <tiempo_transcurrido>00 d 01 h 23 m 10 s</tiempo_transcurrido>
+    <creado_por>Luis Bonnet Ayala</creado_por>
+    <estado>cerrado</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>10</id>
+    <id_ticket>11</id_ticket>
+    <asunto>prueba cambio de usuario</asunto>
+    <prioridad>UNIDAD POR PARARSE</prioridad>
+    <f_abierto>2014-11-23 20:17:38.137  </f_abierto>
+    <f_cerrado>2014-11-23 20:18:32.177  </f_cerrado>
+    <tiempo_transcurrido>35 d 21 h 38 m 29 s</tiempo_transcurrido>
+    <creado_por>Ignacio Jimenez</creado_por>
+    <estado>abierto</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+  <Resultados>
+    <id>11</id>
+    <id_ticket>13</id_ticket>
+    <asunto>prueba con archivos adjuntos</asunto>
+    <prioridad>UNIDAD PARADA</prioridad>
+    <f_abierto>2014-12-06 11:45:51.067  </f_abierto>
+    <f_cerrado xml:space="preserve">                         </f_cerrado>
+    <tiempo_transcurrido>23 d 06 h 10 m 16 s</tiempo_transcurrido>
+    <creado_por>Luis Bonnet prueba de envio de correo</creado_por>
+    <estado>abierto</estado>
+    <asignados>Berenice Albarran Luis Bonnet Ayala Ignacio Jimenez</asignados>
+  </Resultados>
+</NewDataSet>
